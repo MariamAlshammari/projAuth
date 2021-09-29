@@ -1,0 +1,117 @@
+@import '~normalize.css';
+@import '~@blueprintjs/core/lib/css/blueprint.css';
+@import '~@blueprintjs/icons/lib/css/blueprint-icons.css';
+
+body {
+  background-color: rgba(230, 238, 234, 0.932);
+  padding: 1rem;
+  color: black;
+}
+#h2{
+  background-color: #0a0a0a;
+  color: darkseagreen;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+
+.pagination-buttons {
+  margin: 0.25rem;
+}
+.pag{
+  margin-left: 710px;
+  margin-top: -150px;
+}
+#text-input {
+  width: 13rem;
+}
+
+.pagList-container {
+  float: right;
+
+ 
+}
+.card{
+  background-color:darkseagreen ;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+.settingcard{
+  background-color:darkseagreen ;
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-top: 40px;
+ 
+}
+#settingtitle{
+  color: white;
+}
+
+.Navbar,
+header {
+//   color: white;
+//   background-color:#C64756 ;
+  background-color: darkseagreen;
+  color: black;
+}
+
+Button {
+  background-color: rgb(119, 119, 118) !important;
+  margin: 0.1rem;
+}
+.mainItem2 {
+  margin-bottom: 80px !important;
+  margin-left: 400px !important;
+  background-color:darkseagreen;
+  padding-bottom: 60px;
+}
+  
+.mainsec {
+  margin: 5%;
+  .list{
+      color: black;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: lightgray;
+  }
+
+  .mainCards {
+    margin: 5% !important;
+  
+
+    .mainItem {
+      margin-bottom: 50px !important;
+      float: left;
+      background-color:darkseagreen;
+      padding-top: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+      .button{
+         margin-top: 10px;
+         margin-left: 80px;
+      }
+      .Difficulty{
+        margin-top: 10px;
+        
+      }
+    
+    }
+    
+ 
+
+    .listCard {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 20px;
+      background-color: lightgray;
+    
+    }
+
+    .butns {
+      margin-left: 400px !important;
+    }
+  }
+}
